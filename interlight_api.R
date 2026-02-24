@@ -37,7 +37,7 @@ download_from_api_post <- function(
   base_url,
   endpoint,
   body_params,
-  output_dir = "data_json"
+  output_dir = "."
 ) {
   # Build and execute POST request
   req <- request(base_url) |>
@@ -60,9 +60,9 @@ download_from_api_post <- function(
   year_month <- str_c(date_parts[3], "-", date_parts[2])
   year_month_day <- str_c(date_parts[3], "-", date_parts[2], "-", date_parts[1])
 
-  # Build directory path: data/stations/{station_name}/year-month
+  # Build directory path: {output_dir}/stations/{station_name}/year-month
   output_path <- file.path(
-    "data",
+    output_dir,
     "stations",
     station_name,
     year_month
@@ -84,7 +84,7 @@ download_from_api_post <- function(
 
 download_data <- function(
   date,
-  output_dir = "data/json"
+  output_dir = "."
 ) {
   download_from_api_post(
     base_url = Sys.getenv("BASE_URL"),
