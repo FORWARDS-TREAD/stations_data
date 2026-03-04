@@ -35,12 +35,14 @@ jobs:
         run: Rscript interlight_api.R
 
       - name: Commit and push new data
+        id: commit-step
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated data update: New JSON files added"
           file_pattern: "data/"
 
       - name: Trigger Dashboard Repository
+        if: steps.commit-step.outputs.changes_detected == 'true'
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PAT_TRIGGER_DASHBOARD }}
