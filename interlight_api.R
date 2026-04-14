@@ -37,6 +37,7 @@ download_from_api_post <- function(
   base_url,
   endpoint,
   body_params,
+  station_name,
   output_dir = "."
 ) {
   # Build and execute POST request
@@ -50,9 +51,6 @@ download_from_api_post <- function(
 
   # Execute and parse response
   data <- fetch_json(req)
-
-  # Extract station name from the JSON response
-  station_name <- data$data[[1]]$nombre
 
   # Extract date components from body_params
   date_str <- as.character(body_params$diaMuestra)
@@ -84,6 +82,7 @@ download_from_api_post <- function(
 
 download_data <- function(
   date,
+  station_name,
   output_dir = "."
 ) {
   download_from_api_post(
@@ -94,6 +93,7 @@ download_data <- function(
       password = Sys.getenv("PASSWORD"),
       diaMuestra = date
     ),
+    station_name,
     output_dir = output_dir
   )
 }
@@ -104,5 +104,5 @@ yesterday_date <- format(Sys.Date() - 1, "%d/%m/%Y")
 # Execute download function with the calculated date
 # download_data(yesterday_date)
 
-download_data("04/02/2026")
-download_data("05/02/2026")
+download_data("04/02/2026", "cardena")
+download_data("05/02/2026", "cardena")
