@@ -56,4 +56,4 @@ download_historical_range <- function(start_date, end_date, output_dir = ".") {
   }
 }
 
-# download_historical_range("2026-01-01", "2026-02-01")
+download_historical_range("2026-03-05", "2026-04-15")

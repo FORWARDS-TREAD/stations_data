@@ -1,0 +1,221 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id_elemento": 1,
+      "nombre": "SCD-1 Yegüerizo (Cardeña)",
+      "sensores": [
+        {
+          "id_sensor_raw": 1,
+          "parametro": "Temperatura ambiente",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "21.400000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 2,
+          "parametro": "Temperatura Interna",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "22.600000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 3,
+          "parametro": "Humedad ambiente",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "37.300000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 4,
+          "parametro": "Presión atmosférica",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "1005.300000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 5,
+          "parametro": "Pluviometría",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 6,
+          "parametro": "Duración lluvia",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 7,
+          "parametro": "Intensidad lluvia",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 8,
+          "parametro": "Granizo",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 9,
+          "parametro": "Duración granizo",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 10,
+          "parametro": "Intensidad granizo",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 11,
+          "parametro": "Velocidad viento",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 12,
+          "parametro": "Dirección Viento",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "217.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 13,
+          "parametro": "Potencia de calentamiento",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "12.100000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 14,
+          "parametro": "Voltaje de alimentación",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "12.300000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 15,
+          "parametro": "3.5 V de referencia",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "3.620000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 16,
+          "parametro": "Temperatura suelo",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "21.340000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 17,
+          "parametro": "Eje X",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "-0.200000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 18,
+          "parametro": "Eje Y",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "5.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 19,
+          "parametro": "Temperatura suelo B",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "22.250000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 20,
+          "parametro": "Eje X - B",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "7.700000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 21,
+          "parametro": "Eje Y - B",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-31 15:47:21",
+              "valor_raw": "4.400000"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

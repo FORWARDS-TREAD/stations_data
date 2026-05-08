@@ -56,10 +56,11 @@ download_from_api_post <- function(
   year_month <- str_c(date_parts[3], "-", date_parts[2])
   year_month_day <- str_c(date_parts[3], "-", date_parts[2], "-", date_parts[1])
 
-  # Build directory path: {output_dir}/stations/{station_name}/year-month
+  # Build directory path: {output_dir}/stations/sensors_data/{station_name}/year-month
   output_path <- file.path(
     output_dir,
     "stations",
+    "sensors_data",
     station_name,
     year_month
   )

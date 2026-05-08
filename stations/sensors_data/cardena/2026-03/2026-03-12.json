@@ -1,0 +1,389 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id_elemento": 1,
+      "nombre": "SCD-1 Yegüerizo (Cardeña)",
+      "sensores": [
+        {
+          "id_sensor_raw": 1,
+          "parametro": "Temperatura ambiente",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "19.900000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "19.900000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "19.900000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 2,
+          "parametro": "Temperatura Interna",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "20.800000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "20.800000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "20.800000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 3,
+          "parametro": "Humedad ambiente",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "51.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "51.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "51.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 4,
+          "parametro": "Presión atmosférica",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "1009.500000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "1009.500000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "1009.500000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 5,
+          "parametro": "Pluviometría",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 6,
+          "parametro": "Duración lluvia",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 7,
+          "parametro": "Intensidad lluvia",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 8,
+          "parametro": "Granizo",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 9,
+          "parametro": "Duración granizo",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 10,
+          "parametro": "Intensidad granizo",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "0.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "0.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 11,
+          "parametro": "Velocidad viento",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "0.100000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "0.100000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "0.100000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 12,
+          "parametro": "Dirección Viento",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "275.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "275.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "275.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 13,
+          "parametro": "Potencia de calentamiento",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "12.100000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "12.100000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "12.100000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 14,
+          "parametro": "Voltaje de alimentación",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "12.300000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "12.300000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "12.300000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 15,
+          "parametro": "3.5 V de referencia",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "3.620000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "3.620000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "3.620000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 16,
+          "parametro": "Temperatura suelo",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "21.040000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "18.170000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "17.820000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 17,
+          "parametro": "Eje X",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "88.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "88.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "87.700000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 18,
+          "parametro": "Eje Y",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "90.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "90.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "90.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 19,
+          "parametro": "Temperatura suelo B",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "21.250000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "18.390000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "17.780000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 20,
+          "parametro": "Eje X - B",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "90.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "90.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "90.000000"
+            }
+          ]
+        },
+        {
+          "id_sensor_raw": 21,
+          "parametro": "Eje Y - B",
+          "datos": [
+            {
+              "fecha_raw": "2026-03-12 21:08:59",
+              "valor_raw": "90.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 13:09:00",
+              "valor_raw": "90.000000"
+            },
+            {
+              "fecha_raw": "2026-03-12 05:09:00",
+              "valor_raw": "90.000000"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
