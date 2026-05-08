@@ -28,11 +28,9 @@ jobs:
 
       - name: Execute data download script
         env:
-          BASE_URL: ${{ secrets.BASE_URL }}
-          ENDPOINT: ${{ secrets.ENDPOINT }}
           USER: ${{ secrets.API_USER }}
           PASSWORD: ${{ secrets.API_PASSWORD }}
-        run: Rscript interlight_api.R
+        run: Rscript run_daily.R
 
       - name: Commit and push new data
         id: commit-step
