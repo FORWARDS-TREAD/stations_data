@@ -34,15 +34,13 @@ save_json_file <- function(data, file_path) {
 }
 
 download_from_api_post <- function(
-  base_url,
-  endpoint,
+  api_url,
   body_params,
   station_name,
   output_dir = "."
 ) {
   # Build and execute POST request
-  req <- request(base_url) |>
-    req_url_path_append(endpoint) |>
+  req <- request(api_url) |>
     req_headers(
       "Accept" = "application/json",
       "Content-Type" = "application/json; charset=utf-8"
@@ -83,11 +81,11 @@ download_from_api_post <- function(
 download_data <- function(
   date,
   station_name,
+  api_url,
   output_dir = "."
 ) {
   download_from_api_post(
-    base_url = Sys.getenv("BASE_URL"),
-    endpoint = Sys.getenv("ENDPOINT"),
+    api_url = api_url,
     body_params = list(
       usuario = Sys.getenv("USER"),
       password = Sys.getenv("PASSWORD"),
@@ -98,11 +96,29 @@ download_data <- function(
   )
 }
 
+# Load stations configuration
+stations <- read.csv("stations_config.csv", stringsAsFactors = FALSE)
+
+# Filter stations that have an api_url defined
+stations_to_process <- stations[!is.na(stations$api_url) & stations$api_url != "", ]
+
 # Calculate yesterday's date in DD/MM/YYYY format
 yesterday_date <- format(Sys.Date() - 1, "%d/%m/%Y")
 
-# Execute download function with the calculated date
-# download_data(yesterday_date)
+# Process each station
+if (nrow(stations_to_process) > 0) {
+  for (i in 1:nrow(stations_to_process)) {
+    station <- stations_to_process[i, ]
+    message(paste("Processing station:", station$id))
+    
+    # Download data for yesterday
+    tryCatch({
+      download_data(yesterday_date, station$id, station$api_url)
+    }, error = function(e) {
+      warning(paste("Failed to download data for", station$id, ":", e$message))
+    })
+  }
+} else {
+  message("No stations with api_url found in stations_config.csv")
+}
 
-download_data("04/02/2026", "cardena")
-download_data("05/02/2026", "cardena")
